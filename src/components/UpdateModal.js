@@ -21,7 +21,7 @@ const UpdateModal = ({
   return (
     selectedChecklist && (
       <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-        <div className="bg-white p-8 rounded-lg w-1/2">
+        <div className="bg-white p-8 rounded-lg w-full max-w-md">
           <h2 className="text-2xl font-bold mb-4">Update Checklist</h2>
           <p className="mb-4">Checklist: {selectedChecklist.Checklist_Name}</p>
 

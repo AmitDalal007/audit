@@ -101,6 +101,9 @@ data = [
 ]
 
 try:
+    for item in data:
+        item.pop("_id", None)
+
     collection.insert_many(data)
     print("Data inserted successfully!")
 except Exception as e:

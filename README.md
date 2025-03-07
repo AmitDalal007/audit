@@ -31,3 +31,23 @@ Open [http://localhost:8000/docs](http://localhost:8000/docs) to view it in your
 
 ## to add data in mongo db
 ### `python3 insert_data.py`
+
+
+## to register user use these sample data in signup at [http://localhost:8000/docs](http://localhost:8000/docs)
+{
+  "email": "maker@gmail.com",
+  "password": "maker",
+  "role": "Maker"
+}
+
+{
+  "email": "checker@gmail.com",
+  "password": "checker",
+  "role": "Checker"
+}
+
+{
+  "email": "reviewer@gmail.com",
+  "password": "reviewer",
+  "role": "Reviewer"
+}
